@@ -63,20 +63,32 @@ console.log(grandTotal);
 
 
 //push, pop, shift, ununshift
-let colors = ["red", "blue", "green"];
-colors.push("yellow");
+//let colors = ["red", "blue", "green"];
+//let colorless = colors.push("yellow");
+//console.log(colorless);
 
-let lastColor = colors.pop();
-console.log(colors);
-console.log(lastColor);
+//let lastColor = colors.pop();
+//console.log(lastColor);
 
-let firstColor = colors.shift();
-console.log(colors);
-console.log(firstColor);
+//let firstColor = colors.shift("purple");
+//console.log(firstColor);
 
-let newLength = colors.shift("purple");
-console.log(colors);
-console.log(newLength);
+//let newLength = colors.unshift();
+//console.log(newLength); 
+
+let me = [ 100, 120, 500, 960, 130];
+let myself = me.map(function(n){
+    return n**2
+})
+    console.log(myself)
+
+    let my = [ 100, 120, 500, 960, 130];
+    my.forEach(function(n){
+    console.log(n**2
+    )
+})
+
+
 
 
 
